@@ -66,10 +66,6 @@ export default function TweetInput() {
     });
   }
 
-  function displayError() {
-    error.message('This feature has not been implemented due to Firebase Storage downtime at time of project development')
-  }
-
   return (
     <div className="flex space-x-3 p-3 border-b border-gray-700">
       <img
@@ -106,8 +102,8 @@ export default function TweetInput() {
           <div className="flex space-x-0">
             <div
               // onClick={() => filePickerRef.current.click()}
-              onClick={() => alert('Image uploading has not been implemented due to Firebase Storage crash at time of project development')}
-              className="iconAnimation"
+              // onClick={() => alert('Image uploading has not been implemented due to Firebase Storage crash at time of project development')}
+              className="iconAnimation cursor-not-allowed"
             >
               <PhotographIcon className="h-[22px] text-[#1d9bf0]" />
             </div>

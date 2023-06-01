@@ -12,7 +12,7 @@ import {
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { db } from "@/firebase";
 import { useState } from "react";
-import { Router, useRouter } from "next/router";
+import { useRouter } from "next/router";
 
 export default function CommentModal() {
   const dispatch = useDispatch();
@@ -33,8 +33,8 @@ export default function CommentModal() {
     await updateDoc(docRef, {
       comments: arrayUnion(commentDetails),
     });
-    dispatch(closeCommentModal())
-    router.push("/" + tweetDetails.id)
+    dispatch(closeCommentModal());
+    router.push("/" + tweetDetails.id);
   }
   return (
     <>

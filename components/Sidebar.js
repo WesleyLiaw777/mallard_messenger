@@ -6,7 +6,6 @@ import {
   HashtagIcon,
   InboxIcon,
   BookmarkIcon,
-  ClipboardListIcon,
   BellIcon,
   UserIcon,
   DotsCircleHorizontalIcon,
