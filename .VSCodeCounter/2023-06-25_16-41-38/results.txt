@@ -1,0 +1,69 @@
+Date : 2023-06-25 16:41:38
+Directory : c:\Users\Temp\Desktop\FES\twitter-clone
+Total : 30 files,  4746 codes, 20 comments, 141 blanks, all 4907 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |      3,413 |          0 |          2 |      3,415 |
+| JavaScript         |         21 |      1,054 |         11 |         82 |      1,147 |
+| CSS                |          2 |        248 |          5 |         41 |        294 |
+| Markdown           |          1 |         23 |          0 |         16 |         39 |
+| JSON with Comments |          1 |          5 |          4 |          0 |          9 |
+| XML                |          3 |          3 |          0 |          0 |          3 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         30 |      4,746 |         20 |        141 |      4,907 |
+| . (Files)                                                                 |          8 |      3,479 |         12 |         25 |      3,516 |
+| components                                                                |          9 |        769 |          2 |         45 |        816 |
+| components (Files)                                                        |          6 |        489 |          2 |         26 |        517 |
+| components\modals                                                         |          3 |        280 |          0 |         19 |        299 |
+| pages                                                                     |          5 |        154 |          1 |         20 |        175 |
+| pages (Files)                                                             |          4 |        151 |          0 |         18 |        169 |
+| pages\api                                                                 |          1 |          3 |          1 |          2 |          6 |
+| public                                                                    |          3 |          3 |          0 |          0 |          3 |
+| redux                                                                     |          3 |         93 |          0 |         10 |        103 |
+| styles                                                                    |          2 |        248 |          5 |         41 |        294 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                  | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Temp\Desktop\FES\twitter-clone\README.md                         | Markdown           |         23 |          0 |         16 |         39 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\BottomBanner.js        | JavaScript         |         18 |          0 |          3 |         21 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\PostsFeed.js           | JavaScript         |         26 |          0 |          2 |         28 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\Sidebar.js             | JavaScript         |         68 |          0 |          4 |         72 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\Trending.js            | JavaScript         |        105 |          0 |          2 |        107 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\Tweet.js               | JavaScript         |        141 |          0 |          7 |        148 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\TweetInput.js          | JavaScript         |        131 |          2 |          8 |        141 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\modals\CommentModal.js | JavaScript         |        120 |          0 |          3 |        123 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\modals\LoginModal.js   | JavaScript         |         58 |          0 |          7 |         65 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\components\modals\SignUpModal.js  | JavaScript         |        102 |          0 |          9 |        111 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\firebase.js                       | JavaScript         |         16 |          5 |          3 |         24 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\jsconfig.json                     | JSON with Comments |          5 |          4 |          0 |          9 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\next.config.js                    | JavaScript         |          4 |          1 |          2 |          7 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\package-lock.json                 | JSON               |      3,383 |          0 |          1 |      3,384 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\package.json                      | JSON               |         30 |          0 |          1 |         31 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\pages\[id].js                     | JavaScript         |        109 |          0 |         12 |        121 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\pages\_app.js                     | JavaScript         |         10 |          0 |          2 |         12 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\pages\_document.js                | JavaScript         |         12 |          0 |          2 |         14 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\pages\api\hello.js                | JavaScript         |          3 |          1 |          2 |          6 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\pages\index.js                    | JavaScript         |         20 |          0 |          2 |         22 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\postcss.config.js                 | JavaScript         |          6 |          0 |          1 |          7 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\public\next.svg                   | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\public\thirteen.svg               | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\public\vercel.svg                 | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\redux\modalSlice.js               | JavaScript         |         54 |          0 |          5 |         59 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\redux\store.js                    | JavaScript         |          9 |          0 |          1 |         10 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\redux\userSlice.js                | JavaScript         |         30 |          0 |          4 |         34 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\styles\Home.module.css            | CSS                |        236 |          5 |         38 |        279 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\styles\globals.css                | CSS                |         12 |          0 |          3 |         15 |
+| c:\Users\Temp\Desktop\FES\twitter-clone\tailwind.config.js                | JavaScript         |         12 |          2 |          1 |         15 |
+| Total                                                                     |                    |      4,746 |         20 |        141 |      4,907 |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

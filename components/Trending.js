@@ -50,14 +50,14 @@ export default function Trending() {
           <div className="flex space-x-3">
             <img
               className="w-11 h-11 object-cover rounded-full"
-              src="/assets/bragg.png"
+              src="/assets/hormozi.jpg"
             />
             <div>
               <div className="flex space-x-1">
-                <h1 className="font-bold">David Bragg</h1>
+                <h1 className="font-bold">Alex Hormozi</h1>
                 <BadgeCheckIcon className="w-[18px] text-blue-400" />
               </div>
-              <h1 className="text-[12px] text-gray-500 mt-1">@davidbragg</h1>
+              <h1 className="text-[12px] text-gray-500 mt-1">@AlexHormozi</h1>
             </div>
             <button className="bg-white text-black text-sm w-20 rounded-3xl h-8 ">
               Follow
@@ -86,14 +86,14 @@ export default function Trending() {
           <div className="flex space-x-3">
             <img
               className="w-11 h-11 object-cover rounded-full"
-              src="/assets/bragg.png"
+              src="/assets/fireship.jpg"
             />
             <div>
               <div className="flex space-x-1">
-                <h1 className="font-bold">David Bragg</h1>
+                <h1 className="font-bold">Fireship</h1>
                 <BadgeCheckIcon className="w-[18px] text-blue-400" />
               </div>
-              <h1 className="text-[12px] text-gray-500 mt-1">@davidbragg</h1>
+              <h1 className="text-[12px] text-gray-500 mt-1">@fireship_dev</h1>
             </div>
             <button className="bg-white text-black text-sm w-20 rounded-3xl h-8 ">
               Follow

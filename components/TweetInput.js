@@ -103,7 +103,7 @@ export default function TweetInput() {
             <div
               // onClick={() => filePickerRef.current.click()}
               // onClick={() => alert('Image uploading has not been implemented due to Firebase Storage crash at time of project development')}
-              className="iconAnimation cursor-not-allowed"
+              className="iconAnimation"
             >
               <PhotographIcon className="h-[22px] text-[#1d9bf0]" />
             </div>
